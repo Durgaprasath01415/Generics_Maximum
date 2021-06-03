@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GenericsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-03T16:53:32" hostname="DESKTOP-BS45UV7" time="0.002">
+<testsuite name="GenericsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-03T17:11:04" hostname="DESKTOP-BS45UV7" time="0.01">
   <properties/>
-  <testcase name="givenFirstNumber_whenMaximum_shouldReturnTrue" classname="GenericsTest" time="0.002"/>
+  <testcase name="givenFirstNumber_whenThirdNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.004"/>
+  <testcase name="givenFirstNumber_whenSecondNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.002"/>
+  <testcase name="givenFirstNumber_whenFirstNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
