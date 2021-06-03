@@ -15,4 +15,12 @@ public class GenericsMain {
             maximumNumber = thirdNumber;
         return maximumNumber;
     }
+    public  static String compareStringMaximum(String firstWord, String secondWord, String thirdWord){
+        String maximumNumber = firstWord;
+        if(secondWord.compareTo(maximumNumber)>0)
+            maximumNumber = secondWord;
+        if(thirdWord.compareTo(maximumNumber)>0)
+            maximumNumber = thirdWord;
+        return maximumNumber;
+    }
 }

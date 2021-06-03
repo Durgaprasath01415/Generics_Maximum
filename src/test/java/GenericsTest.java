@@ -32,4 +32,19 @@ public class GenericsTest {
         Float max = GenericsMain.compareFloatMaximum(2.0012f,4.21424f,6.436f);
         Assert.assertEquals((Float)6.436f,max);
     }
+    @Test
+    public void givenString_whenFirstWord_shouldReturnMaximum(){
+        String max = GenericsMain.compareStringMaximum("Peach","Banana","Apple");
+        Assert.assertEquals("Peach", max);
+    }
+    @Test
+    public void givenString_whenSecondWord_shouldReturnMaximum(){
+        String max = GenericsMain.compareStringMaximum("Apple","Peach","Banana");
+        Assert.assertEquals("Peach", max);
+    }
+    @Test
+    public void givenString_whenThirdWord_shouldReturnMaximum(){
+        String max = GenericsMain.compareStringMaximum("Apple","Banana","Peach");
+        Assert.assertEquals("Peach", max);
+    }
 }

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GenericsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-03T17:28:24" hostname="DESKTOP-BS45UV7" time="0.029">
+<testsuite name="GenericsTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-03T17:46:34" hostname="DESKTOP-BS45UV7" time="0.007">
   <properties/>
-  <testcase name="givenFloatNumber_whenThirdNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.005"/>
-  <testcase name="givenFloatNumber_whenFirstNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.003"/>
-  <testcase name="givenFloatNumber_whenSecondNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.002"/>
-  <testcase name="givenIntegerNumber_whenSecondNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.001"/>
-  <testcase name="givenIntegerNumber_whenThirdNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.002"/>
-  <testcase name="givenIntegerNumber_whenFirstNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.001"/>
+  <testcase name="givenFloatNumber_whenThirdNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.002"/>
+  <testcase name="givenFloatNumber_whenFirstNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
+  <testcase name="givenFloatNumber_whenSecondNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.001"/>
+  <testcase name="givenIntegerNumber_whenSecondNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
+  <testcase name="givenIntegerNumber_whenThirdNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
+  <testcase name="givenIntegerNumber_whenFirstNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
+  <testcase name="givenString_whenSecondWord_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
+  <testcase name="givenString_whenFirstWord_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
+  <testcase name="givenString_whenThirdWord_shouldReturnMaximum" classname="GenericsTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
