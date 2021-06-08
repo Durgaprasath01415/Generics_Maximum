@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GenericsTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-04T12:47:26" hostname="DESKTOP-BS45UV7" time="0.016">
+<testsuite name="GenericsTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-08T06:36:24" hostname="DESKTOP-9KBRA3G" time="0.002">
   <properties/>
-  <testcase name="givenFloatNumber_whenThirdNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.012"/>
-  <testcase name="givenFloatNumber_whenFirstNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.001"/>
+  <testcase name="givenFloatNumber_whenThirdNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.001"/>
+  <testcase name="givenFloatNumber_whenFirstNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
   <testcase name="givenFloatNumber_whenSecondNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
   <testcase name="givenIntegerNumber_whenSecondNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
   <testcase name="givenIntegerNumber_whenThirdNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
