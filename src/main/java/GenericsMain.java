@@ -1,3 +1,5 @@
+import java.util.regex.Pattern;
+
 public class GenericsMain<E extends Comparable> {
     E[] values;
 @SafeVarargs
@@ -6,7 +8,13 @@ public class GenericsMain<E extends Comparable> {
     }
 
     public E testMax(){
+    E maximumNumber = (E) compareMaximum(values);
+    printMaximum(maximumNumber);
         return (E) compareMaximum(values);
+    }
+
+    public void printMaximum(E maximumNumber) {
+        System.out.printf("Maximum is : " + maximumNumber + "\n");
     }
 
     @SafeVarargs

@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GenericsTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-06-08T07:08:26" hostname="DESKTOP-9KBRA3G" time="0.002">
+<testsuite name="GenericsTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-06-08T07:24:02" hostname="DESKTOP-9KBRA3G" time="0.009">
   <properties/>
-  <testcase name="givenMultipleInt_shouldReturn_maxInt" classname="GenericsTest" time="0.001"/>
-  <testcase name="givenMultipleFloat_shouldReturn_maxFloat" classname="GenericsTest" time="0.0"/>
+  <testcase name="givenMultipleInt_shouldReturn_maxInt" classname="GenericsTest" time="0.006"/>
+  <testcase name="givenMultipleFloat_shouldReturn_maxFloat" classname="GenericsTest" time="0.001"/>
   <testcase name="givenFloatNumber_whenThirdNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
   <testcase name="givenFloatNumber_whenFirstNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
   <testcase name="givenFloatNumber_whenSecondNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
-  <testcase name="givenIntegerNumber_whenSecondNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
+  <testcase name="givenIntegerNumber_whenSecondNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.001"/>
   <testcase name="givenIntegerNumber_whenThirdNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
   <testcase name="givenMultipleString_shouldReturn_maxString" classname="GenericsTest" time="0.0"/>
   <testcase name="givenIntegerNumber_whenFirstNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
   <testcase name="givenString_whenSecondWord_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
   <testcase name="givenString_whenFirstWord_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
   <testcase name="givenString_whenThirdWord_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <system-out><![CDATA[Maximum is : 40
+Maximum is : 40.4485
+Maximum is : 6.436
+Maximum is : 6.436
+Maximum is : 6.436
+Maximum is : 6
+Maximum is : 6
+Maximum is : peach
+Maximum is : 6
+Maximum is : Peach
+Maximum is : Peach
+Maximum is : Peach
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

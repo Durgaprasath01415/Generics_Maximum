@@ -2,6 +2,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class GenericsTest {
+    //Test case for Maximum of Integer with 3 parameter
     @Test
     public void givenIntegerNumber_whenFirstNumberMaximum_shouldReturnMaximum(){
         GenericsMain<Integer> genericsMain = new GenericsMain<>(6,4,2);
@@ -20,6 +21,7 @@ public class GenericsTest {
         Integer max = genericsMain.testMax();
         Assert.assertEquals((Integer)6,max);
     }
+    //Test case for Maximum of Float with 3 parameter
     @Test
     public void givenFloatNumber_whenFirstNumberMaximum_shouldReturnMaximum(){
         GenericsMain<Float> genericsMain = new GenericsMain<>(6.436f,4.21424f,2.0012f);
@@ -37,6 +39,7 @@ public class GenericsTest {
         Float max = genericsMain.testMax();
         Assert.assertEquals((Float) 6.436f,max);
     }
+    //Test case for Maximum of String with 3 parameter
     @Test
     public void givenString_whenFirstWord_shouldReturnMaximum(){
         GenericsMain<String> genericsMain = new GenericsMain<>("Peach","Banana","Apple");
@@ -55,6 +58,7 @@ public class GenericsTest {
         String max = genericsMain.testMax();
         Assert.assertEquals("Peach", max);
     }
+    //Test case for Maximum with 4 parameter
     @Test
     public void givenMultipleInt_shouldReturn_maxInt() {
         Assert.assertSame(40, new GenericsMain<>(10, 20, 30, 40).testMax());
