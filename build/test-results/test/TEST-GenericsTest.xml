@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GenericsTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-08T06:36:24" hostname="DESKTOP-9KBRA3G" time="0.002">
+<testsuite name="GenericsTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-06-08T07:08:26" hostname="DESKTOP-9KBRA3G" time="0.002">
   <properties/>
-  <testcase name="givenFloatNumber_whenThirdNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.001"/>
+  <testcase name="givenMultipleInt_shouldReturn_maxInt" classname="GenericsTest" time="0.001"/>
+  <testcase name="givenMultipleFloat_shouldReturn_maxFloat" classname="GenericsTest" time="0.0"/>
+  <testcase name="givenFloatNumber_whenThirdNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
   <testcase name="givenFloatNumber_whenFirstNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
   <testcase name="givenFloatNumber_whenSecondNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
   <testcase name="givenIntegerNumber_whenSecondNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
   <testcase name="givenIntegerNumber_whenThirdNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
+  <testcase name="givenMultipleString_shouldReturn_maxString" classname="GenericsTest" time="0.0"/>
   <testcase name="givenIntegerNumber_whenFirstNumberMaximum_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
   <testcase name="givenString_whenSecondWord_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
   <testcase name="givenString_whenFirstWord_shouldReturnMaximum" classname="GenericsTest" time="0.0"/>
