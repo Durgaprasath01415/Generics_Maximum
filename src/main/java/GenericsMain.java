@@ -10,7 +10,7 @@ public class GenericsMain<E extends Comparable> {
     }
 
     @SafeVarargs
-    public static   < E extends Comparable<E>> E compareMaximum(E ...values){
+    public static < E extends Comparable<E>> E compareMaximum(E ...values){
         E maximumNumber = values[0];
         for(int i =1; i < values.length; i++){
             if(maximumNumber.compareTo(values[i])<0){
